@@ -13,10 +13,10 @@ public class Main {
         float precoProduto = sc.nextFloat();
         System.out.print("Digite a quantidade comprada: ");
         int quantidade = sc.nextInt();
-        System.out.print("Digite o valor pago: ");
-        float valorPago = sc.nextFloat();
+        System.out.print("Digite o valor recebido: ");
+        float valorRecebido = sc.nextFloat();
 
-        Troco troco = new Troco(precoProduto, quantidade, valorPago);
+        Troco troco = new Troco(precoProduto, quantidade, valorRecebido);
 
         float valorTroco = troco.calcularTroco();
 

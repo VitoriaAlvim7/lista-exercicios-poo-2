@@ -4,16 +4,16 @@ public class Troco {
 
     private float precoProduto;
     private int quantidade;
-    private float valorPago;
+    private float valorRecebido;
 
-    public Troco(float precoProduto, int quantidade, float valorPago) {
+    public Troco(float precoProduto, int quantidade, float valorRecebido) {
         this.precoProduto = precoProduto;
         this.quantidade = quantidade;
-        this.valorPago = valorPago;
+        this.valorRecebido = valorRecebido;
     }
 
     public float calcularTroco() {
         float totalCompra = precoProduto * quantidade;
-        return valorPago - totalCompra;
+        return valorRecebido - totalCompra;
     }
 }
