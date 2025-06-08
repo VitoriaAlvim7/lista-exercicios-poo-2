@@ -23,5 +23,6 @@ public class Main {
         System.out.printf("O perímetro do retângulo é: %.2f m%n", perimetro);
         System.out.printf("A diagonal do retângulo é: %.2f m%n", diagonal);
 
+        sc.close();
     }
 }

@@ -20,5 +20,7 @@ public class Main {
         float valorTroco = troco.calcularTroco();
 
         System.out.println("Valor do troco: R$ " + valorTroco);
+
+        sc.close();
     }
 }

@@ -21,5 +21,6 @@ public class Main {
 
         System.out.printf("O pagamento para %s deve ser R$ %.2f%n", funcionario.getNome(), pagamento);
 
+        sc.close();
     }
 }

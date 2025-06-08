@@ -13,5 +13,4 @@ public class Soma {
     public float calcular() {
         return x + y;
     }
-
 }

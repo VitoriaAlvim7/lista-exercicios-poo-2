@@ -22,5 +22,7 @@ public class Main {
 
         System.out.printf("A área do terreno é: %.2f m²%n", area);
         System.out.printf("O valor total do terreno é: R$ %.2f%n", valorTotal);
+
+        sc.close();
     }
 }

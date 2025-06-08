@@ -15,5 +15,7 @@ public class Main {
         float area = circulo.calcularArea();
 
         System.out.printf("A área do círculo com raio %.2f é: %.3f%n", raio, area);
+
+        sc.close();
     }
 }

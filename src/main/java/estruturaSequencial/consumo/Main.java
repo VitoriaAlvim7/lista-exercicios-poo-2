@@ -17,5 +17,7 @@ public class Main {
 
         float mediaConsumo = carro.calcularMediaConsumo();
         System.out.printf("A média de consumo do carro é: %.3f km/l%n", mediaConsumo);
+
+        sc.close();
     }
 }

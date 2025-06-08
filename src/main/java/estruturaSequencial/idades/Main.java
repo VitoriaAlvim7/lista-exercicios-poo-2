@@ -25,5 +25,7 @@ public class Main {
         int mediaIdades = pessoa1.calcularMediaIdades(pessoa2);
 
         System.out.println("A média das idades de " + pessoa1.getNome() + " e " + pessoa2.getNome() + " é de " + mediaIdades);
+
+        sc.close();
     }
 }

@@ -13,5 +13,7 @@ public class Main {
         Duracao duracao = new Duracao(duracaoEmSegundos);
 
         System.out.println("Duração formatada: " + duracao.getDuracaoFormatada());
+
+        sc.close();
     }
 }

@@ -20,5 +20,7 @@ public class Main {
         System.out.printf("Area do quadrado: %.4f%n", medidas.calcularAreaQuadrado());
         System.out.printf("Area do triangulo retangulo: %.4f%n", medidas.calcularTrianguloRetangulo());
         System.out.printf("Area do trapezio: %.4f%n", medidas.calcularAreatrapezio());
+
+        sc.close();
     }
 }
