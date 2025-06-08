@@ -8,7 +8,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         sc.useLocale(java.util.Locale.US);
 
-
         System.out.print("Digite o preço do produto: ");
         float precoProduto = sc.nextFloat();
         System.out.print("Digite a quantidade comprada: ");
